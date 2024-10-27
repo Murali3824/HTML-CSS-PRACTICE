@@ -1,4 +1,4 @@
-alert("pop up");
+// alert("pop up");
 // prompt("what is your name");
 // var typeData=new Typed(".role",{
 //     Strings:[

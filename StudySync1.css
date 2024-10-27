@@ -8,7 +8,7 @@ body{
     height: 100%;
 }
 .bodycontainer{
-    max-width: 1350px;
+    /* max-width: 1350px; */
     /* width: 100%; */
     height: 100%;
     /* padding-left: 20px ; */
@@ -331,7 +331,7 @@ a{
 
 
 .featurecontainer{
-    max-width:  1320px;
+    /* max-width:  1320px; */
     background-color:rgba(211, 211, 211, 0.388);
     padding: 2rem 0;
 
