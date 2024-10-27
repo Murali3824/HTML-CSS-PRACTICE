@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    height: 100%;
+    width: 100%;
+ }
+ a{
+    text-decoration: none;
+ }
+ .bodycontainer{
+    /* display: flex; */
+    /* justify-content: center; */
+    
+ }
+ .container{
+    /* width: 100%;
+    height: 100%;
+    max-width: 1000vw; */
+    padding:2rem 1rem;
+    margin:0 auto;
+    
+    background-color: whitesmoke;
+ }
+.headercontainer{
+    margin-bottom: 2.8rem;
+}
+.headertitle{
+    margin-bottom: 1rem;
+    font-size:1.7rem ;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.headerdesc{
+    max-width: 40%;
+    text-align: center;
+    color: rgb(79, 68, 68);
+    margin:  auto;
+    line-height: 25px;
+}
+.maincontainer{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr );
+   
+    
+}
+.cardcontainer{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+.cardimagecontainer{ 
+    /* position: relative; */
+    overflow: hidden;
+
+}
+.cardimage{
+    /* width: 100%; */
+}
+.cardtitlecontainer{
+    /* height: 70%; */
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    /* gap: 1rem; */
+
+}
+.cardimage:hover{
+     transform: scale(1.1);
+     transition-duration:200ms ;
+}
+#a1:hover{
+    color: rgba(0, 0, 255, 0.689);
+}
+.cardfootercontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.authorcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    /* justify-items: center; */
+}
+.authoravatarcontainer{
+    width: 4.5rem ;
+    height:4rem ;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 50%;
+    background-color: rgba(192, 178, 178, 0.852);
+}
+.authoravatar{
+    width: 80%;
+    height: 80%;
+    margin:  auto;
+}
+.authorinfocontainer{
+    display: flex;
+    flex-direction: column;
+}
+.cardtagcontainer{
+    border: 1px solid rgba(0, 0, 0, 0.849);
+    font-size:1rem ;
+    border-radius: 2px ;
+    line-height: 1.2rem;
+      
+}
+#t{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin: 10px;
+}

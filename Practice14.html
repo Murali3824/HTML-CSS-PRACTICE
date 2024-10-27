@@ -1,0 +1,72 @@
+   <!-- FLEXBOX  class-20-->
+    <!-- justify content is used in horizontal shiftings
+    align items is used in vertical shiftings 
+    flex is used for directions(row-reverse , etc..) -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex; 
+            /* flex-direction:row-reverse; */
+            /* flex-direction: column; */
+            flex-wrap: wrap;    /* when slides are adjusted the data will be adjusting by wrapping */
+             /* flex: row; 
+            justify-content: start;
+            align-items: start;
+            align-contentrt;  */
+            height: 800px; 
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+              /* justify-content: center; 
+                 align-items: center;  */
+             /* align-items: stretch;    */
+             /* .box height should be streched when height of box is comment */
+             
+        
+        }
+ 
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+        }
+        #box1{
+           background-color: aqua; 
+           order:4 ;
+           /* flex-shrink: 4; */
+            /* flex-basis: 400px; */     /* flex basis means remaining space us occupied by assigned pixel value */
+           flex-grow: 1;      /* flex grow means remaining space is cooupied */ */
+        }
+        #box2{
+            background-color: blue;
+            align-self: center;
+        }
+        #box3{
+            background-color: orange;
+        } 
+        #box4{
+            background-color: brown;
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">BOX1</div>
+        <div class="box" id="box2">BOX2</div>
+        <div class="box" id="box3">BOX3</div>
+        <div class="box" id="box4">BOX4</div>
+    </div>
+</body>
+</html>
